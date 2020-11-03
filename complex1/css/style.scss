@@ -34,35 +34,35 @@ body {
 
             .menubutton {
                 margin: 0px 10px;
-                background-color: violet;
+                background-color: none;
                 display: flex;
                 justify-content: space-between;
                
 
-                .logo {
-                    background-color: green;
-                    width: 16px;
-                    height: 16px;
-                    background-image: url(../assets/logo\ empty.png);
-                    background-size: contain;
-                    box-shadow: 2px 2px white;
-                }
+                
 
                 .hamburger {
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-around;
+                    justify-content: center;
                     width: 12px;
                     height: 12px;
-                    background-color: blue;
-                    padding: 2px;
+                    padding: 4px;
 
                     .bar {
                         background-color: white;
                         height: 1px;
-                        width: 10px;
-                        margin: 1px 2px;
+                        width: 5px;
+                        margin: 0.5px 2px;
+                        transition: 0.2s;
                     }
+                    
+                    }
+                }
+                .hamburger:hover {
+                    .bar {box-shadow: 1px 1px 4px white;
+                        margin: 1px 2px;
+                        width: 6px;
                 }
 
 

@@ -35,19 +35,13 @@ body .container .img {
 
 body .container .img .menubutton {
   margin: 0px 10px;
-  background-color: violet;
+  background-color: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-body .container .img .menubutton .logo {
-  background-color: red;
-  width: 16px;
-  height: 16px;
 }
 
 body .container .img .menubutton .hamburger {
@@ -58,19 +52,28 @@ body .container .img .menubutton .hamburger {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 12px;
   height: 12px;
-  background-color: blue;
-  padding: 2px;
+  padding: 4px;
 }
 
 body .container .img .menubutton .hamburger .bar {
   background-color: white;
   height: 1px;
-  width: 10px;
+  width: 5px;
+  margin: 0.5px 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .container .img .hamburger:hover .bar {
+  -webkit-box-shadow: 1px 1px 4px white;
+          box-shadow: 1px 1px 4px white;
   margin: 1px 2px;
+  width: 6px;
 }
 
 body .content {
