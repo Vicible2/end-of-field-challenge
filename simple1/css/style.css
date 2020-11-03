@@ -8,10 +8,6 @@ body {
           box-sizing: border-box;
 }
 
-body div {
-  border: 1px solid red;
-}
-
 #mockup {
   width: 321px;
   height: 337px;
@@ -37,6 +33,7 @@ body div {
   width: 322px;
   height: 338px;
   padding: 13px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container h1 {
@@ -45,5 +42,35 @@ body div {
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   font-size: 32pt;
+  padding-bottom: 12px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.container .content {
+  margin-bottom: 15px;
+  padding-top: 0.8em;
+}
+
+.container .content p {
+  letter-spacing: -1px;
+  padding-top: 0.5em;
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+.container .price {
+  color: #F37F25;
+  font-size: 25pt;
+}
+
+.container .footer {
+  border-top: 1px solid lightgrey;
+  padding-top: 18px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.container .footer span {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
