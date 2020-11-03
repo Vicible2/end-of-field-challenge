@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     ;
 
-    #mockup {
+   /* #mockup {
         width: 298px;
         height: 361px;
         background-image: url(/complex1/assets/complex.01.png);
@@ -17,18 +17,18 @@ body {
         position: absolute;
         z-index: 10;
         pointer-events: none;
-    }
+    }*/
 
     .container {
         box-sizing: content-box;
-        border: 5px solid red;
+        border: 5px solid rgb(233, 232, 232);
         width: calc(298px - 10px);
         height: calc(361px - 10px);
 
         .img {
             width: auto;
             height: calc(361px - 10px - 145px);
-            background-color: blue;
+            background-image: url(../assets/card\ bg.png);
         }
 
         .content {
@@ -77,7 +77,6 @@ body {
             text-transform: uppercase;
         }
         .footer {
-            background-color: green;
             display: flex;
             justify-content: space-between;
             padding: 6px 0 ;
@@ -120,7 +119,7 @@ body {
                     margin-right: 2px;
                 }
                 .button1:hover {
-                    background-color: none;
+                    background-color: #fff;
                     border: 1px solid #8FD5D8;
                     color: black;
                 }
@@ -129,7 +128,7 @@ body {
                     margin-right: 2px;
                 }
                 .button2:hover {
-                    background-color: none;
+                    background-color: #fff;
                     color:black;
                     border: 1px solid #9146F9;
                 }
@@ -138,7 +137,7 @@ body {
                     background-color: #FF3344;
                 }
                 .button3:hover {
-                    background-color: none;
+                    background-color: #fff;
                     color:black;
                     border: 1px solid #FF3344;
                 }
