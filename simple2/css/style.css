@@ -79,11 +79,11 @@ body .container .button {
 }
 
 body .container .button .icon {
-  background-image: url(/assets/pen.png);
+  background-image: url(../assets/pen.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 21px;
-  height: 21px;
+  width: 22px;
+  height: 22px;
   margin: 8px;
   margin-left: 15px;
 }
