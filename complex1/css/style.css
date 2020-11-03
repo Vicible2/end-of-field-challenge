@@ -33,7 +33,47 @@ body .container .img {
   background-size: contain;
 }
 
-body .container .content {
+body .container .img .menubutton {
+  margin: 0px 10px;
+  background-color: violet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .img .menubutton .logo {
+  background-color: red;
+  width: 16px;
+  height: 16px;
+}
+
+body .container .img .menubutton .hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 12px;
+  height: 12px;
+  background-color: blue;
+  padding: 2px;
+}
+
+body .container .img .menubutton .hamburger .bar {
+  background-color: white;
+  height: 1px;
+  width: 10px;
+  margin: 1px 2px;
+}
+
+body .content {
   margin-left: 19px;
   margin-top: 24px;
   margin-right: 19px;
@@ -52,13 +92,13 @@ body .container .content {
             */
 }
 
-body .container .content h4 {
+body .content h4 {
   font-size: 10pt;
   font-weight: 600;
   letter-spacing: -0.9px;
 }
 
-body .container .content .text {
+body .content .text {
   font-size: 10pt;
   font-weight: 500;
   margin-top: 18px;
@@ -75,20 +115,20 @@ body .container .content .text {
           justify-content: space-between;
 }
 
-body .container .content .text .date {
+body .content .text .date {
   letter-spacing: -0.4px;
 }
 
-body .container .content hr {
+body .content hr {
   margin-top: 22px;
 }
 
-body .container .footer,
-body .container button {
+body .footer,
+body button {
   text-transform: uppercase;
 }
 
-body .container .footer {
+body .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,7 +140,7 @@ body .container .footer {
   margin-left: 19px;
 }
 
-body .container .footer .left {
+body .footer .left {
   margin-top: 3px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -110,24 +150,24 @@ body .container .footer .left {
   display: flex;
 }
 
-body .container .footer .left p {
+body .footer .left p {
   margin-left: 7px;
   font-size: 8pt;
   letter-spacing: -0.2px;
 }
 
-body .container .footer .left p span {
+body .footer .left p span {
   font-weight: bold;
 }
 
-body .container .footer .left img {
+body .footer .left img {
   height: 27px;
   width: 27px;
   background-color: black;
   border-radius: 50%;
 }
 
-body .container .footer .right {
+body .footer .right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,7 +177,7 @@ body .container .footer .right {
   margin: 5px 3px 0 0;
 }
 
-body .container .footer .right button {
+body .footer .right button {
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
   font-size: 10px;
@@ -148,35 +188,38 @@ body .container .footer .right button {
   margin-left: 1px;
 }
 
-body .container .footer .right .button1 {
+body .footer .right .button1 {
   background-color: #8FD5D8;
   margin-right: 2px;
 }
 
-body .container .footer .right .button1:hover {
+body .footer .right .button1:hover {
   background-color: #fff;
   border: 1px solid #8FD5D8;
   color: black;
+  cursor: pointer;
 }
 
-body .container .footer .right .button2 {
+body .footer .right .button2 {
   background-color: #9146F9;
   margin-right: 2px;
 }
 
-body .container .footer .right .button2:hover {
+body .footer .right .button2:hover {
   background-color: #fff;
   color: black;
   border: 1px solid #9146F9;
+  cursor: pointer;
 }
 
-body .container .footer .right .button3 {
+body .footer .right .button3 {
   background-color: #FF3344;
 }
 
-body .container .footer .right .button3:hover {
+body .footer .right .button3:hover {
   background-color: #fff;
   color: black;
   border: 1px solid #FF3344;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
