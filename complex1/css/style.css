@@ -28,4 +28,33 @@ body .container .img {
   height: calc(361px - 10px - 145px);
   background-color: blue;
 }
+
+body .container .content {
+  /* 
+           too complex but usuable if more data would be present
+           
+           display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .date {
+                display: flex;
+                align-items: flex-end;
+            }
+
+            */
+}
+
+body .container .content .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=style.css.map */

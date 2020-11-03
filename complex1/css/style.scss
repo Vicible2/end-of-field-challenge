@@ -27,5 +27,27 @@ body {
             height: calc(361px - 10px - 145px);
             background-color: blue;
         }
+
+        .content {
+           /* 
+           too complex but usuable if more data would be present
+           
+           display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .date {
+                display: flex;
+                align-items: flex-end;
+            }
+
+            */
+
+            .text {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
     }
 }
