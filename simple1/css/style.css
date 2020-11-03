@@ -71,6 +71,7 @@ body {
 }
 
 .container .footer span {
-  font-weight: bold;
+  font-weight: bolder;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
