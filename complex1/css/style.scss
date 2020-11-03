@@ -73,7 +73,33 @@ body {
                 margin-top: 22px;
             }
         }
-
+        .footer, button {
+            text-transform: uppercase;
+        }
+        .footer {
+            display: flex;
+            margin-left: 19px;
+            .left {
+                margin-top: 9px;
+                align-items: center;
+                display: flex;
+                p {
+                    margin-left: 7px;
+                    font-size: 8pt;
+                    letter-spacing: -0.2px;
+                    span {
+                        font-weight:bold;
+                    }
+                }
+                img {
+                    height: 27px;
+                    width: 27px;
+                    background-color: black;
+                    border-radius: 50%;
+                }
+            }
+            
+        }
     
     }
 }
