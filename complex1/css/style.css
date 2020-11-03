@@ -2,4 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
+#mockup {
+  width: 298px;
+  height: 361px;
+  background-image: url(/complex1/assets/complex.01.png);
+  border-right: 1px solid darkgrey;
+  border-bottom: 1px solid darkgray;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+}
 /*# sourceMappingURL=style.css.map */
