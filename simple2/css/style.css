@@ -18,7 +18,13 @@
 }
 
 body .container {
+  background-color: #F5F5F5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 359px;
+  height: 293px;
   padding: 12px;
+  padding-right: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -46,5 +52,35 @@ body .container .text {
   font-size: 11pt;
   margin-top: 14px;
   line-height: 1.7;
+}
+
+body .container .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  width: 163px;
+  border-radius: 5px;
+  background-color: #F77D48;
+  color: white;
+  letter-spacing: -0.5px;
+}
+
+body .container .button .icon {
+  background-image: url(/assets/pen.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 21px;
+  margin: 8px;
+  margin-left: 15px;
 }
 /*# sourceMappingURL=style.css.map */
