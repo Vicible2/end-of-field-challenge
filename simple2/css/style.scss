@@ -68,6 +68,12 @@ body {
             background-color: #F77D48;
             color: white;
             letter-spacing: -0.5px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            border-radius: 20px;
+            cursor: pointer;
+            text-decoration: underline;
         }
         
 

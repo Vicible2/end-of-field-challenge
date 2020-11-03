@@ -72,6 +72,8 @@ body .container .button {
   background-color: #F77D48;
   color: white;
   letter-spacing: -0.5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 body .container .button .icon {
@@ -82,5 +84,11 @@ body .container .button .icon {
   height: 21px;
   margin: 8px;
   margin-left: 15px;
+}
+
+body .container .button:hover {
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
