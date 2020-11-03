@@ -18,8 +18,14 @@ body {
 
     .container {
         box-sizing: content-box;
-border: 5px solid red;
+        border: 5px solid red;
         width: calc(298px - 10px);
         height: calc(361px - 10px);
+
+        .img {
+            width: auto;
+            height: calc(361px - 10px - 145px);
+            background-color: blue;
+        }
     }
 }

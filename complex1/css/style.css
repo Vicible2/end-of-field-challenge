@@ -22,4 +22,10 @@ body .container {
   width: calc(298px - 10px);
   height: calc(361px - 10px);
 }
+
+body .container .img {
+  width: auto;
+  height: calc(361px - 10px - 145px);
+  background-color: blue;
+}
 /*# sourceMappingURL=style.css.map */
