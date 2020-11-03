@@ -79,8 +79,7 @@ body .container .content .text .date {
   letter-spacing: -0.4px;
 }
 
-body .container hr {
-  margin: 19px;
+body .container .content hr {
   margin-top: 22px;
 }
 /*# sourceMappingURL=style.css.map */
