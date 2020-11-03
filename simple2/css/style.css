@@ -27,4 +27,18 @@ body .container h4 {
   font-size: 9pt;
   letter-spacing: 0.3px;
 }
+
+body .container .title {
+  margin-top: 12px;
+  font-family: 'Noto Serif', serif;
+}
+
+body .container .title span {
+  color: #834070;
+  letter-spacing: -0.5px;
+}
+
+body .container .title h1 {
+  letter-spacing: -1.1px;
+}
 /*# sourceMappingURL=style.css.map */

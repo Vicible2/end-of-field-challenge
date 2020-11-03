@@ -26,6 +26,17 @@ body {
                         font-size: 9pt;
                         letter-spacing: 0.3px;
         }
+        .title {
+            margin-top: 12px;
+            font-family: 'Noto Serif', serif;
+            span {
+                color: #834070;
+                letter-spacing: -0.5px;
+            }
+            h1 {
+                letter-spacing: -1.1px;
+            }
+        }
         
 
     }
