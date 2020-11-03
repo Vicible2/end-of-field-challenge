@@ -30,16 +30,16 @@ body {
             height: calc(361px - 10px - 145px);
             background-image: url("../assets/card\ bg.png");
             background-size: contain;
-            
+
 
             .menubutton {
                 margin: 0px 10px;
                 background-color: none;
                 display: flex;
                 justify-content: space-between;
-               
 
-                
+
+
 
                 .hamburger {
                     display: flex;
@@ -56,13 +56,15 @@ body {
                         margin: 0.5px 2px;
                         transition: 0.2s;
                     }
-                    
-                    }
+
                 }
-                .hamburger:hover {
-                    .bar {box-shadow: 1px 1px 4px white;
-                        margin: 1px 2px;
-                        width: 6px;
+            }
+
+            .hamburger:hover {
+                .bar {
+                    box-shadow: 1px 1px 4px white;
+                    margin: 1px 2px;
+                    width: 6px;
                 }
 
 
