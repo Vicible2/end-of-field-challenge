@@ -12,7 +12,7 @@ body {
         background-image: url(/complex1/assets/complex.01.png);
         border-right: 1px solid darkgrey;
         border-bottom: 1px solid darkgray;
-        opacity: 0.5;
+        opacity: 0.6;
         position: absolute;
         z-index: 10;
         pointer-events: none;
@@ -44,7 +44,7 @@ body {
             .text {
                 font-size: 10pt;
                 font-weight: 500;
-                margin-top: 17px;
+                margin-top: 18px;
                 letter-spacing: -1px;
                 display: flex;
                 flex-direction: row;
@@ -68,6 +68,11 @@ body {
 
             */
 
+        }
+
+        hr {
+            margin: 19px;
+            margin-top: 22px;
         }
     }
 }
