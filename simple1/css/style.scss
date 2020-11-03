@@ -2,3 +2,14 @@
     margin: 0;
     padding: 0;
 }
+body {
+    box-sizing: border-box;
+}
+#mockup {
+    width: 321px;
+    height: 337px;
+    background-image: url(../assets/interface.17.png);
+    border-right: 1px solid darkgrey;
+    border-bottom: 1px solid darkgray;
+    opacity: 0.5;
+}
