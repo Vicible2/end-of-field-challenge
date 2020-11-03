@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-#mockup {
+/*#mockup {
     width: 359px;
     height: 293px;
     background-image: url(../assets/interface.14.png);
@@ -17,6 +17,7 @@
     z-index: 10;
     pointer-events: none;
 }
+*/
 body {
     .container {
         background-color: #F5F5F5;
@@ -68,12 +69,13 @@ body {
             background-color: #F77D48;
             color: white;
             letter-spacing: -0.5px;
-            transition: 0.3s;
+            transition: 0.5s;
         }
         .button:hover {
-            border-radius: 20px;
+            border-radius: 22px;
             cursor: pointer;
             text-decoration: underline;
+            border: 0.3px solid black;
         }
         
 
