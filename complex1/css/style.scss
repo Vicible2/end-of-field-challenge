@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     ;
 
-   /* #mockup {
+    /* #mockup {
         width: 298px;
         height: 361px;
         background-image: url(/complex1/assets/complex.01.png);
@@ -28,7 +28,8 @@ body {
         .img {
             width: auto;
             height: calc(361px - 10px - 145px);
-            background-image: url(../assets/card\ bg.png);
+            background-image: url("../assets/card\ bg.png");
+            background-size: contain;
         }
 
         .content {
@@ -73,27 +74,34 @@ body {
                 margin-top: 22px;
             }
         }
-        .footer, button {
+
+        .footer,
+        button {
             text-transform: uppercase;
         }
+
         .footer {
             display: flex;
             justify-content: space-between;
-            padding: 6px 0 ;
+            padding: 6px 0;
             padding-left: 0;
             margin-left: 19px;
+
             .left {
                 margin-top: 3px;
                 align-items: center;
                 display: flex;
+
                 p {
                     margin-left: 7px;
                     font-size: 8pt;
                     letter-spacing: -0.2px;
+
                     span {
-                        font-weight:bold;
+                        font-weight: bold;
                     }
                 }
+
                 img {
                     height: 27px;
                     width: 27px;
@@ -101,10 +109,12 @@ body {
                     border-radius: 50%;
                 }
             }
+
             .right {
                 display: flex;
                 align-items: center;
                 margin: 5px 3px 0 0;
+
                 button {
                     transition-duration: 0.4s;
                     font-size: 10px;
@@ -114,38 +124,43 @@ body {
                     padding: 1px 5px;
                     margin-left: 1px;
                 }
+
                 .button1 {
                     background-color: #8FD5D8;
                     margin-right: 2px;
                 }
+
                 .button1:hover {
                     background-color: #fff;
                     border: 1px solid #8FD5D8;
                     color: black;
                 }
+
                 .button2 {
                     background-color: #9146F9;
                     margin-right: 2px;
                 }
+
                 .button2:hover {
                     background-color: #fff;
-                    color:black;
+                    color: black;
                     border: 1px solid #9146F9;
                 }
 
                 .button3 {
                     background-color: #FF3344;
                 }
+
                 .button3:hover {
                     background-color: #fff;
-                    color:black;
+                    color: black;
                     border: 1px solid #FF3344;
                 }
 
 
             }
-            
+
         }
-    
+
     }
 }

@@ -29,7 +29,8 @@ body .container {
 body .container .img {
   width: auto;
   height: calc(361px - 10px - 145px);
-  background-color: blue;
+  background-image: url("../assets/card bg.png");
+  background-size: contain;
 }
 
 body .container .content {
@@ -82,7 +83,8 @@ body .container .content hr {
   margin-top: 22px;
 }
 
-body .container .footer, body .container button {
+body .container .footer,
+body .container button {
   text-transform: uppercase;
 }
 
