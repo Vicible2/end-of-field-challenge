@@ -42,13 +42,13 @@ body {
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   font-size: 33pt;
-  padding-bottom: 12px;
+  padding-bottom: 11px;
   border-bottom: 1px solid lightgrey;
 }
 
 .container .content {
   margin-bottom: 15px;
-  padding-top: 0.6em;
+  padding-top: 11px;
 }
 
 .container .content p {
